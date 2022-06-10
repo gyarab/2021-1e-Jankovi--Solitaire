@@ -99,7 +99,7 @@ public class HelloApplication extends Application {
 
         // Zkontroluje, zda hráč přetahuje žeton ve správném směru (horizontální, vertikální nebo diagonální)
         if (Math.abs(x0 - x1) == 1 || Math.abs(y0 - y1) == 1) {
-            System.out.println("Špatnej směr");
+            System.out.println("Špatný směr");
             return false;
         }
         // Kontroluje, zda hráč přeskakuje nějaký žeton
