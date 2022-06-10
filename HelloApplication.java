@@ -122,8 +122,8 @@ public class HelloApplication extends Application {
             int y0 = toBoard(peg.getOldY());
 
             boolean legalMove = legalMove(x0, y0, x1, y1);
-            System.out.println("legalMove from " + x0 + " " + y0 + " to " + x1 + " " + y1);
-            System.out.println("Move is " + legalMove);
+            System.out.println("Pohyb ze souřadnic: " + x0 + " " + y0 + " na souřadnice: " + x1 + " " + y1);
+            System.out.println("Pohyb = " + legalMove);
 
             if (legalMove) {
                 peg.move(x1, y1);
