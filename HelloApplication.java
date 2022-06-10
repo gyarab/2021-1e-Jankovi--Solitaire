@@ -135,7 +135,7 @@ public class HelloApplication extends Application {
                 board[(x0 + x1) / 2][(y0 + y1) / 2].setPeg(null);
                 pegGroup.getChildren().remove(eatenPeg);
             }
-            if (true) {
+            if (gameFinished()) {
                 try {
                     Thread.sleep(1000);
                 } catch (InterruptedException waitE) {
